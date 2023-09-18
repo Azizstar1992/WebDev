@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background: papayawhip;
+}
+a, .logo
+{
+    background-color: white;
+}
+.header, .left-links, .right-links
+{
+    display: flex;
+}
+
+.left-links ul ,.right-links ul
+{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    
+    
+}
+
+.header
+{
+    padding:8px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+a
+{
+    text-decoration: none;
+    border: 1px solid black;
+    color:blue;
+    font-size: 18px;
+
+}
+
+.logo
+{
+    color:rgb(163, 101, 29);
+    font-size: 24px;
+   
+}
