@@ -1,61 +1,154 @@
-*
-{
-    padding:0;
-    margin:0;
-}
-
-body
-{
-    margin:0;
-    padding:0;
-}
-.hero
-{
-    background-color: #1F2937;
+body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+}
+
+.hero,
+footer {
+    background-color: #1F2937;
+    display: flex;
+ 
+}
+
+footer
+{
+    margin:0;
+    align-items: center;
+}
+.hero {
+
+    display: flex;
+    flex-direction: column;
+
     padding-bottom: 80px;
 }
 
-a
-{
-    text-decoration: none;
-}
-.navbar,.content
-{
-    display: flex;
-    justify-content: space-around;
-}
-ul
-{
-    text-decoration: none;
-    gap: 8px;
-    display: flex;
-}
-.logo
-{
-    color:#F9FAF9;
+.logo,h1 {
+    color: #F9FAF8;
     font-size: 24px;
 }
-
-.left-header
+h1
 {
-    color:#F9FAF9;
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
-
-.image
-{
-    height: 200px;
-    width: 200px;
-    background-color: #3a4f6d;
-    padding: 10px;
-}
-
-sec
-{
-    color:#e5e7eb;
+ul,
+#text {
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img, .hero-one {
+    width: 30%;
+    height: auto;
+    margin:80px;
+    margin-bottom: 0;
+    margin-top :50px;
+    
+}
+
+.hero-img
+{
+    background-color: #4d6485;
+}
+
+.mainContainer{
+    
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+    
+}
+
+.container {
+    max-width: 200px;
+  }
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.img
+{
+    align-self: center;
+   border:5px solid cyan;
+    height: 200px;
+    width:200px;
+    border-radius: 15px;
+}
+
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right:150px;
+    padding-bottom:0;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    
+    
+}
+
+.actioncontent, .actionbutton
+{
+    background-color: #3882f6;
+}
+
+.action
+{
+    display:flex;
+    justify-content: center;
+    margin: 80px;
+    
+}
+.actioncontent
+{
+    border-radius: 10px;
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.button{
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
