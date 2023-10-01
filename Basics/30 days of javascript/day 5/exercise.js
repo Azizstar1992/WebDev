@@ -1,4 +1,6 @@
 
+
+
 console.log('---------------------------------1.1---------------------------------------')
 console.log('Declare an empty array;')
 let arr = []
@@ -88,3 +90,18 @@ console.log('---------------------------------1.23------------------------------
 console.log('Remove all IT companies')
 itCompanies = itCompanies.splice()
 console.log(itCompanies)
+
+
+console.log('---------------------------------2.1---------------------------------------')
+console.log('Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file')
+console.log(countries)
+
+
+let text = 'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.';
+//removing all the punctuations
+let string =text.replace(/[^w]/gi,'')
+arr = text.split(" ")
+console.log(arr)
+console.log(arr.length)
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
