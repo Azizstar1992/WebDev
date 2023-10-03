@@ -124,46 +124,21 @@ console.log('2. Stringify the students object with only firstName, lastName and 
 studen = JSON.stringify(student,['firstName','lastName','skills'])
 console.log(studen)
 
+
+
+
+console.log('3.Parse the txt JSON to object.')
+console.log('Find the user who has many skills from the variable stored in txt.')
 let users = JSON.parse(txt)
 
-let max = Number.MIN_SAFE_INTEGER;
+let max = 0;
 let res = undefined;
 for (const key in users)
 {
      const user = users[key];
-     console.log(user.skills.length)
      if (user.skills.length > max)
     {
          max = user.skills.length;
          res = user;
      }
-}
-
-//Store you first name, last name, age, country, city in your browser localStorage.
-localStorage.setItem('firstName','Abdiaziz')
-localStorage.setItem('lastName','Mohamud')
-localStorage.setItem('age',30)
-localStorage.setItem('country','United Kingdom')
-localStorage.setItem('city','Leicester')
-
-//Create a student object. The student object will have first name, last name, age, skills, country, enrolled keys and values for the keys. Store the student object in your browser localStorage.
-
-class student1 {
-    constructor(){
-    this.firstName ="Abdiaziz"
-    this.lastName="Mohamud"
-    this.age=24
-    this.skills= ['CSS','HTML']
-    this.country='UK'
-    this.enrolled=true
-    }
-}
-
-student1 = new student1()
-localStorage.clear()
-
-let arr = Object.entries(student1)
-for(let i = 0; i <arr.length;i++)
-{
-    localStorage.setItem(arr[i][0],arr[i][1])
 }
