@@ -28,9 +28,10 @@ for(let i = 0 ; i <countries.length;i++)
 {
     let li = document.createElement("li")
     li.style.margin ="4px"
-    li.style.padding ="70px"
+    li.style.padding ="50px"
     li.textContent = countries[i]
     li.style.border ="1px solid black"
+    
     
     list.append(li)
     
@@ -38,5 +39,8 @@ for(let i = 0 ; i <countries.length;i++)
 
 list.style.display="flex"
 list.style.flexWrap ="wrap"
-list.style.alignItems="space-around"
+list.style.alignItems="center"
+list.style.flexBasis ="auto"
+list.style.marginLeft ="10%"
 body.append(list)
+list.style.alignItems="center"
