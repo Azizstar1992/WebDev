@@ -29,6 +29,9 @@ for(let i = 0; i < li.length;i++)
 }
 
 const firsthead = document.querySelector('h1')
+const p = document.querySelector('p')
+p.style.padding = "0"
+p.style.margin = "0"
 const secondhead = document.querySelector('h2')
 secondhead.style.fontSize="12px"
 secondhead.style.paddingTop = "10px"
@@ -46,8 +49,8 @@ function updatetime()
     
     secondhead.style.backgroundColor=  colorArray[choice]
     choice = (choice+1)%colorArray.length
-    string.style.color = colorArray[choice]
-    firsthead.innerHTML ="Bsabeneh Yetayeh challenges in " +string
+    p.style.color = colorArray[choice]
+    p.style.fontSize="32px"
     
 
 }
