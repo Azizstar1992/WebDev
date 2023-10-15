@@ -1,0 +1,165 @@
+body
+{
+    padding: 0px;
+    margin:0
+}
+
+.hero
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero2
+{
+    display:flex;
+    justify-content: center;
+    
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+nav
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav > ul
+{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button
+{
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pic{
+    padding :50px 150px;
+    
+    background-color: rgb(61, 107, 134);
+    margin: 10px;
+}
+
+.text
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    
+}
+
+/* 2nd section*/
+.info
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+.boxes
+{
+   display: flex;
+   max-width:600px;
+   
+  align-items: center;
+  justify-content: center;
+}
+.box
+{
+    margin:10px;
+}
+
+.box > div
+{
+    min-width: 200px;
+    min-height: 200px;
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+    
+}
+
+/* background,font color and styling section */
+.bc1
+{
+    background-color: #1f2937;
+}
+
+.bc2
+{
+    background-color: #3882f6;
+}
+
+.bc3
+{
+    background-color: #e5e7eb;
+}
+
+.fc1
+{
+    color: #f9FAF8;
+}
+
+.fc2
+{
+    color: #e5e7eb;
+}
+
+.fc3
+{
+    color:#1f2937
+}
+
+.fs1
+{
+    font-size: 18px;
+}
+
+.fs2
+{
+    font-size: 24px;
+}
+
+.fs3
+{
+    font-size: 36px;
+}
+
+.fs4
+{
+    font-size: 48px;
+}
+
+
+
+.em{
+    font-weight: bolder;
+}
+.it
+{
+    font-style: italic;
+}
+.padzero{
+    padding: 0;
+}
+
+.mt0{
+    margin-top: 0;
+}
+.mb0
+{
+    margin-bottom: 0;
+}
