@@ -9,15 +9,42 @@ body
 {
    display: flex;
    flex-direction: column;
+   justify-content: center;
 
 }
 h1
 {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .buttons
 {
     display: flex;
     justify-content: space-around;
+}
+
+.boxes
+{
+    display:flex;
+    flex-direction: column;
+}
+
+img
+{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.big
+{
+    align-self: center;
+    font-size: 38px;
+
+}
+.count
+{
+    display:flex;
+    justify-content: center;
 }
